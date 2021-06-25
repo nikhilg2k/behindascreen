@@ -9,3 +9,5 @@ The post data is currently stored statically but with backend implementation it 
 Currently the tags, subscribe and archive features are not implemented
 
 The whatsapp share button is functional and share will work when the website comes online (I intend to host it using heroku)
+
+Site available at - 
