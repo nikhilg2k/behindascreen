@@ -31,6 +31,14 @@ a {
     color: black;
 }
 
+.title-link {
+    color: white;
+}
+
+.about-name-link {
+    color: var(--green);
+}
+
 /* Header styles */
 
 .header-container {
@@ -74,8 +82,8 @@ a {
 }
 
 .nav-btn:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--green);
+    color: white;
 }
 
 .navigation-bar a {
@@ -210,12 +218,12 @@ a {
 
 .cards-go-here {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 @media screen and (max-width: 1200px) {
     .cards-go-here {
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 

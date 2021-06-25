@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>behind a screen | by @nikhilg2k | post</title>
+    <link rel="stylesheet" href="posts.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/e884a49fb5.js" crossorigin="anonymous"></script>
+    <div class="header-container" id="header-container">
+        <div class="blog-title-wrapper">
+            <div class="blog-title">
+                <div class="title-container">
+                    <a href="index.html" class="title-link">behind a screen</a>
+                </div>
+                <div class="by-line">
+                    a blog by <span class="author-name"><a href="index.html#about-wrapper" class="about-name-link">@nikhilg2k</a></span>
+                </div>
+            </div>
+            <input type="image" src="assets/ham-menu.png" class="open-nav-btn" id="nav-toggle-btn" onclick="openNav()">
+        </div>
+    </div>
+    <div class="nav">
+        <div class="navigation-bar" id="navigation-bar">
+            <a href="index.html" class="home nav-btn" onclick="navLinks()">Home</a>
+            <a href="#about-wrapper" class="about nav-btn" onclick="navLinks()">About</a>
+            <a href="#subscription-wrapper" class="subscribe nav-btn" onclick="navLinks()">Subscribe</a>
+            <a href="#archive-wrapper" class="archive nav-btn" onclick="navLinks()">Archive</a>
+            <a href="#contact-wrapper" class="contact nav-btn" onclick="navLinks()">Contact</a>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-heading">
+            <p id="post-heading">Loyalty to political parties has caused a breakdown in healthy public debate</p>
+        </div>
+
+        <div class="post-details">
+            
+            <div class="post-author">
+                <div class="post-author-pic">
+                    <img src="assets/dp.jpg" alt="dp">
+                </div>
+                <p>by Nikhil Gupta <span class="post-date-time"> May 26,2021 &middot; 30 sec read</span></p>
+            </div>
+
+            <div class="share-icons">
+                <div class="share-link-icon">
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+
+                <div class="whatsapp-icon">
+                    <a href="whatsapp://send?text=https://nikhilg2k.github.io/blog-dev-project/post.html" action="share/whatsapp/share" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+
+                <div class="insta-icon">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-image">
+            <img id="post-image" src="assets/img1.jpg" alt="" height="300px" width="500px">
+        </div>
+        
+        <div class="post-content">
+            <p>
+                In the past few years the political atmosphere in the country has become conspicuously polarized. 
+                Whether it is the comments on a video or tweets on your feed, tempers are always high and anything
+                and everything triggers a hostile exchange of insults and abuses. 
+                As far as primetime television debates are concerned, the less said, the better. 
+                These are the symptoms of a larger illness affecting public discourse, that is, the increasing 
+                loyalty of citizens not to the nation but rather to specific political parties. 
+                Nowadays whether one supports or opposes any policy is determined by one’s political choices 
+                and affiliations, and not by rational analysis. There seems to be an insuppressible urge to 
+                discredit any differing opinion by using pejorative labels like ‘bhakt’ or ‘libertard’. 
+                This signals a general inability to take an objective stand on any issue of national significance.
+            </p>
+            <p>
+                This notion can be aptly illustrated if we consider the case of the recent farmer's protests in and 
+                around the capital. All government supporters will vehemently defend the leaders by maligning the 
+                movement through alleged links to ‘khalistanis’ instead of discussing the merits of the laws. 
+                On the other hand all non supporters will mindlessly criticise the laws with vague predictions of 
+                an imagined ‘slavery to corporations’ and a ‘hate the rich’ mentality demonising industrialists and 
+                wealth creators of the nation. Amidst this chaos, the real concerns like benefits of the reforms, 
+                contentions to the laws and the larger issue of lack of faith building measures prior to the reforms,
+                have drowned in the noises.
+            </p>
+            <p>
+                A similar story emerges if we take a look at India’s fight against COVID-19. One faction firmly 
+                believes that the early complete lockdown was a masterstroke that prevented millions of deaths 
+                and another faction is convinced that it caused an avoidable socio-economic crisis. 
+                The truth, as always, is nuanced, but in a hyperpolarized society there is no place for nuance, 
+                no tolerance towards rationality. Any semblance of objectivity comes with a risk of exposing yourself 
+                to animosity from both ends of the spectrum.
+            </p>
+            <p>
+                Before all of us had smartphones in our pockets, our world was largely limited to people in or 
+                near our homes, schools and workplaces. The people we met there had different views, opinions and 
+                preferences and this made us more mindful and tolerant towards diverse ideas. Today everything on 
+                our smartphones is carefully curated to match our own biases and ideologies. Every news article, 
+                tweet, instagram post or youtube video that you see was delivered to you by an algorithm actively 
+                trying to find out what you want to see to keep you engaged as long as possible. The physical 
+                newspapers are the same for everyone with any ideology but your news feed is personalized. This 
+                converts any online platform into an echochamber of your own opinions and since finding a community 
+                of thousands of people who share the same beliefs has never been easier, you are led to presume that 
+                your way is the only right way. 
+            </p>
+            <p>
+                Why, I ask, have we as a people, lost the ability to judge every policy from a non partisan perspective? 
+                Why, I ask, have we as a people, become blind to the faults in the leaders we choose? 
+                Why, I ask, have we as a people, forgotten that our duty towards our democracy lies in 
+                loyalty to the nation, not to any party?
+            </p>
+        </div>
+    </div>
+
+    <div class="subscription-wrapper" id="subscription-wrapper">
+        <div class="subscribe-heading">
+            Subscribe to get post notifications
+        </div>
+        <div class="subscribe-input-container">
+            <input type="text" value="Enter your email">
+        </div>
+        <div class="subscribe-button-container">
+            <input type="button" value="Subscribe" class="subscribe-button">
+        </div>
+    </div>
+
+    <div class="archive-wrapper" id="archive-wrapper">
+        <div class="archive-heading">
+            Archive
+        </div>
+        <div class="archive-inputs">
+            <div class="month">
+                <select class="month-selector" id="months">
+                    <option value="select">Select Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">Feburary</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+            </div>
+            <div class="year">
+                <select class="year-selector" id="year">
+                    <option value="select">Select Year</option>
+                    <option value="2021">2021</option>
+                </select>
+            </div>
+            <div class="archive-button-container">
+                <input type="button" value="Search Posts" class="archive-button">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-wrapper" id="about-wrapper">
+        <div class="author-heading">
+            About the Author
+        </div>
+        <div class="author-details">
+            <div class="author-description column-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque quam ac tempor hendrerit. Proin imperdiet dui quis nulla semper, ac rhoncus lectus eleifend. Duis placerat volutpat tortor, pretium dictum tellus faucibus eget. Morbi in erat sed magna varius volutpat posuere eu dui. Aenean sed aliquam leo. Duis laoreet placerat ultricies. Sed bibendum ante ut feugiat ultricies. Integer vel tortor dui. Donec aliquet ac nisl eget accumsan.
+            </div>
+            <div class="author-img column">
+                <img src="assets/dp.jpg" alt="dp" class="author-pic">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-wrapper" id="contact-wrapper">
+        <div class="left-info">
+            <div class="contact-name">
+                @nikhilg2k
+            </div>
+            <div class="contact-icons">
+                <div class="insta">
+                    <img src="assets/insta.png" alt="insta" class="insta-icon icon">
+                </div>
+                <div class="linkedin">
+                    <img src="assets/linkedin.png" alt="" class="linkedin-icon icon">
+                </div>
+                <div class="github">
+                    <img src="assets/github.png" alt="" class="github-icon icon">
+                </div>
+            </div>
+            <div class="contact-email">
+                behindascreen@gmail.com
+            </div>
+        </div>
+        <div class="right-image">
+            <img src="assets/pen.jpg" alt="" class="pen-image">
+        </div>
+    </div>
+    <button onclick="topFunction()" id="scroll-btn" title="Go to top"><img src="assets/up.png" alt="Top" class="go-to-top-btn"></button>
+    <script src="main.js"></script>
+</body>
+</html>

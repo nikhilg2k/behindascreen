@@ -8,24 +8,24 @@ let i = 0;
 
 // Post arrays
 let titles = [
-    "Post 1 Title",
-    "Post 2 Title",
-    "Post 3 Title",
-    "Post 4 Title",
+    "Loyalty to political parties has caused a breakdown in healthy public debate",
+    "Why India needs cyber defense as well as cyber offense",
+    "Baba Ramdev’s comments on allopathic medicine are not funny. They are dangerous",
+    "TVF's Aspirants Review | A blueprint of sophisticated storytelling"
 ]
 
 let dates = [
-    "Mar 12 - 5 min read",
-    "Apr 25 - 3 min read",
-    "May 26 - 4 min read",
-    "Jun 22 - 7 min read"
+    "Jun 12 - 5 min read",
+    "Jun 25 - 3 min read",
+    "Jun 25 - 4 min read",
+    "Jun 25 - 3 min read"
 ]
 
 let summary = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ...",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ...",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ...",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ...",
+    "Have we forgotten out responsibity towards the nation and the republic?...",
+    "Why increasing threats from China should make us rethink cyber defense...",
+    "Irresponsible comments by celebrities can increase vaccine hesitancy...",
+    "Review of TVF's latest addition to a series of popular hits...",
 ]
 
 window.onscroll = function() {scrollActions()};
@@ -36,7 +36,7 @@ function renderCards(titles, dates, summary) {
         console.log(i);
         document.getElementById("cards-go").innerHTML += `
         <div>
-            <a href="post.html">
+            <a href="post${i+1}.html">
                 <div class="card-container">
                     <div class="card">
                         <div class="image-container">

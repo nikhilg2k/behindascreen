@@ -5,6 +5,7 @@
     --dark-grey: #7C7B7B;
     --light-grey: #ABABAB;
     --green: #1a8917;
+    --green-30-percent: #CBE1CB;
 }
 
 /* Common styles */
@@ -28,6 +29,14 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+.title-link {
+    color: white;
+}
+
+.about-name-link {
+    color: var(--green);
 }
 
 /* Header styles */
@@ -73,8 +82,8 @@ a {
 }
 
 .nav-btn:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--green);
+    color: white;
 }
 
 .navigation-bar a {
@@ -257,8 +266,9 @@ a {
 #post-image {
     margin-top: 1em;
     width: 100%;
-    height: 100%;
+    height: 600px;
     object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .post-content {
@@ -269,6 +279,8 @@ a {
 .post-content p {
     margin: 1.5em 0;
 }
+
+/* Styling of content */
 
 .subheading {
     display: block;
@@ -283,15 +295,27 @@ a {
     width: 95%;
     margin: auto;
     padding: 0.4em;
-    margin-bottom: 0.6em;
+    margin-bottom: 1em;
+    margin-top: 1em;
     font-style: italic;
     font-weight: 300;
+    background-color: var(--green-30-percent);
 }
 
 .italic-text {
     font-style: italic;
     font-weight: normal;
 }
+
+.bold-text {
+    font-weight: 700;
+}
+
+.new-line {
+    display: block;
+    margin: 0.5em 0em;
+}
+
 @media screen and (min-width: 800px) {
     .post-container {
         width: 75%;
