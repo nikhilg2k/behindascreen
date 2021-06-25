@@ -202,6 +202,16 @@ a {
     font-weight: medium;
 }
 
+.special-mentions {
+    font-size: 0.6em;
+    color: var(--dark-grey);
+}
+
+.special-mentions a {
+    color: var(--green);
+    text-decoration: underline;
+}
+
 .post-details {
     display: flex;
     justify-content: space-between;
