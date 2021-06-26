@@ -201,6 +201,7 @@ a {
 
 .tags span {
     padding: 0.5em;
+    color: var(--green);
 }
 
 .tags a {

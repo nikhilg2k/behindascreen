@@ -15,7 +15,7 @@ let titles = [
 ]
 
 let dates = [
-    "Jun 12 - 5 min read",
+    "Jun 12 - 3 min read",
     "Jun 25 - 3 min read",
     "Jun 25 - 4 min read",
     "Jun 25 - 3 min read"
