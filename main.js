@@ -11,28 +11,31 @@ let titles = [
     "Loyalty to political parties has caused a breakdown in healthy public debate",
     "Why India needs cyber defense as well as cyber offense",
     "Baba Ramdev’s comments on allopathic medicine are not funny. They are dangerous",
-    "TVF's Aspirants Review | A blueprint of sophisticated storytelling"
+    "TVF's Aspirants Review | A blueprint of sophisticated storytelling",
+    "What The Pegasus Project revelations mean for privacy in the future"
 ]
 
 let dates = [
-    "Jun 12 - 3 min read",
-    "Jun 25 - 3 min read",
-    "Jun 25 - 4 min read",
-    "Jun 25 - 3 min read"
+    "Jun 12 &middot 3 min read",
+    "Jun 25 &middot 3 min read",
+    "Jun 25 &middot 4 min read",
+    "Jun 25 &middot 3 min read",
+    "Jul 24 &middot 5 min read"
 ]
 
 let summary = [
     "Have we forgotten out responsibity towards the nation and the republic?...",
-    "Why increasing threats from China should make us rethink cyber defense...",
+    "Why increasing Chinese threats should make us rethink cyber defense...",
     "Irresponsible comments by celebrities can increase vaccine hesitancy...",
     "Review of TVF's latest addition to a series of popular hits...",
+    "Analysing the implications of the The Pegasus Project revelations..."
 ]
 
 window.onscroll = function() {scrollActions()};
 window.onload = function() {renderCards(titles, dates, summary)};
 
 function renderCards(titles, dates, summary) {
-    for (i=0; i<4; i++) {
+    for (i=4; i>=0; i--) {
         console.log(i);
         document.getElementById("cards-go").innerHTML += `
         <div>
