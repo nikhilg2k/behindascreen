@@ -223,6 +223,10 @@ a {
     align-items: center;
 }
 
+.post-author a {
+    color: var(--green);
+    text-decoration: underline;
+}
 .post-author-pic {
     vertical-align: center;
 }
