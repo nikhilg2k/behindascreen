@@ -527,6 +527,7 @@ a {
     display: flex;
     justify-content: space-between;
     height: 200px;
+    background-color: #dee3e1;
 }
 
 .right-image {
